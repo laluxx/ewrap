@@ -1,0 +1,14 @@
+#+TITLE: ewrap
+#+AUTHOR: laluxx
+
+* Install
+Clone it
+#+begin_src shell
+git clone https://github.com/laluxx/ewrap ~/.config/emacs/lisp/ewrap
+#+end_src
+
+Add to init.el
+#+begin_src elisp
+(use-package ewrap
+  :load-path "~/.config/emacs/lisp/ewrap")
+#+end_src
